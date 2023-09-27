@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PortfolioWallace</title>
+</head>
+
+
+<body>
+  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+    <!--aqui é a barra de ferramentas -->
+    <div class="container-fluid col-11 m-auto">
+      <a class="navbar-brand" href="#carouselExampleControls">Wallace Henriques</a>
+      <!--Colei carouselExampleControls para o botao funcionar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#title">Tecnologias <span class="sr-only">(current)</span></a>
+            <!--aqui chamei a id title para quando apertar o botão a pag ir para lá -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+            <!--aqui chamei a id contato para quando apertar o botão a pag ir para lá -->
+          </li>
+        </ul>
+
+      </div>
+  </nav>
+
+  <!--Aqui começa o carrossel-->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner"> <!--Para corrigir o tamanho das imagens chamei essa classe no css-->
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/matrix1.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/matrix2.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/matrix3.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <!--Aqui começa o primeito card-->
+  <br>
+  
+  <div class="col coluna"> <!--Aqui eu separei o primeiro card do carrossel-->
+    <div class="card">
+      <img src="img/Foto1.jpg" alt="Foto1" width="200">
+      <div class="card-body">
+        <h2 class="card-title">Sobre mim</h2>
+        <p class="card-text">Bem vindo(a) ao meu Portifólio.
+          Meu nome é Wallace Henriques
+
+
+          sou Residente em TIC – Dev em Software pelo Serratec na modalidade Fullstack (web e mobile). Resido em
+          Petrópolis – RJ. No meu tempo livre, além de estudar programação, gosto de assistir filmes, séries e afins.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--outra coluna para o segundo card-->
+  <div class="col coluna"> <!--Aqui eu separei os cards-->
+    <div id="title" class="card">
+      <img src="img/computador2.jpg" alt="Foto" width="200">
+      <div class="card-body">
+        <h2 class="card-title">Tecnologias</h2>
+        <p class="card-text">Focado em inovação e tecnologia.
+          Meu comprometimento com a aprendizagem e paixão pela tecnologia me impulsionam a adquirir conhecimento em
+          todas as áreas relacionadas ao desenvolvimento de software. Estou focado para que assim que tiver oportunidade
+          aplicar minhas habilidades e contribuir para projetos inovadores no mundo da tecnologia.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  </div>
+  <hr>
+
+  <div class="col-11 m-auto">
+    <h3 class="text-center"> Ferramentas</h3>
+    <p class="text-center">Os desenvolvedores back-end devem ser capazes de gerenciar recursos de APIs que funcionam em
+      vários dispositivos, também podem estar envolvidos na arquitetura de um sistema e nas análises de ciência de dados
+      e devem ter a habilidade de implementar algoritmos e resolver problemas relacionados ao sistema.</p>
+  </div>
+  <hr>
+
+
+
+  <div class="imagensferramentas">
+    <img src="img/java.jpg" alt="Foto" width="200"> <img src="img/C Sharp 2.jpg" alt="Foto" width="200">
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <footer> <!--Aqui joguei contato para rodapé-->
+    <div class="col-11 m-auto"> <!--uma linha de 11 colunas-->
+      <h2 id="contato" class="text-center">Contato</h2>
+      <a href="https://wa.me/5521997773863"><i class="fa-brands fa-whatsapp"
+          style="font-size: 50px; color: green;"></i></a>
+      <a href="https://www.linkedin.com/in/wallace-henriques-20284832/"><i class="fa-brands fa-linkedin"
+          style="font-size: 50px; color: blue;"></i></a>
+      <a href="https://github.com/WallaceHenriques"><i class="fa-brands fa-github"
+          style="font-size: 50px; color: black;"></i></a>
+
+
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+</html>

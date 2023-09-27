@@ -1,0 +1,22 @@
+.coluna{
+margin-top: 5px;
+
+}
+
+footer{
+margin-bottom:-10px;
+background-color: #dadada; 
+
+}
+
+.imagensferramentas{
+
+    text-align: center
+}
+
+.carousel-inner{
+
+min-width: 100%;
+height: 400px;
+
+}
